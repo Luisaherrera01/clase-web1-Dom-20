@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav, ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    width: 30%;
+    background-color: red;
+    text-align: center;
+}
+
+.colorVerde{
+    background-color: green;
+}
+
+.colorAmarillo{
+    background-color: yellow;
+}
+
+button{
+    width: 50%;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    margin: 20px;
+}
