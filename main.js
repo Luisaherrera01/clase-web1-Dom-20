@@ -57,5 +57,18 @@ const crearMenu = ()=>{
 
 }
 
-agregar.addEventListener('click', crearMenu)
+agregar.addEventListener('click', crearMenu) 
+
+
+// BORRAR pero no me funciona
+const borrar = document.querySelector("#borrar")
+
+const borrarMenu = () =>{
+    const li1 = document.querySelector("li1")
+    li1.textContent = ''
+    li2.textContent = ''
+    li3.textContent = ''
+    li1.remove("li1","li2","li3")
+}
+borrar.addEventListener('click', borrarMenu)
 
